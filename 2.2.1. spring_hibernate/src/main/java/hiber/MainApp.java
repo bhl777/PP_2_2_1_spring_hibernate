@@ -3,8 +3,7 @@ package hiber;
 import hiber.config.AppConfig;
 import hiber.model.Car;
 import hiber.model.User;
-import hiber.service.UserService;
-import hiber.service.UserServiceImp;
+import hiber.service.UserService;import hiber.service.UserServiceImp;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.sql.SQLException;
@@ -38,7 +37,7 @@ public class MainApp {
         }
 
 
-        User us = userService.getUserFromCar("", 525);
+        User us = userService.getUserFromCar("Car3", 2);
         System.out.println("---------------------------");
         System.out.println(us);
 
