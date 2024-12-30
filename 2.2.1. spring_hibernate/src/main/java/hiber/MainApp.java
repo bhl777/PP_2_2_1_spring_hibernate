@@ -36,8 +36,7 @@ public class MainApp {
             System.out.println();
         }
 
-
-        User us = userService.getUserFromCar("Car3", 2);
+        User us = userService.getUserFromCar("Car1", 77);
         System.out.println("---------------------------");
         System.out.println(us);
 
